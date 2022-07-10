@@ -10,7 +10,9 @@ export function UseScrollerEcample() {
 
     return (
         <div style={{ height: '200vh' }}>
-            <button type="button" onClick={scroller}>Scroll</button>
+            <button type="button" onClick={scroller}>
+                Scroll
+            </button>
         </div>
     );
 }
