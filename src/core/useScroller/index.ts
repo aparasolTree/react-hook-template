@@ -8,6 +8,7 @@ export interface UseScrollerOptions {
 
 export const useScroller = ({ x, y, isSmooth }: UseScrollerOptions = {}) => useCallback(() => {
     if (!window) return;
+
     window.scrollTo({
         top: y,
         left: x,
